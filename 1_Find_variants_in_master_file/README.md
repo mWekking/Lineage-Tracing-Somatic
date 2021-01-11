@@ -8,10 +8,10 @@ __data at the start of this step: a merged bam file of all individiual bam files
 example usage: 
 > $ python3 1_1_findReadsperPosition.py sorted_run_1_cell_1.bam hg19_withchr.fa run1_cell1_counts.txt
 
-..* input 1: the merged bam file
-..* input 2: refrence genome in fasta format
-**It is import that the chromosomes in the refrence file are noted with chr I.E. chr1 not simply a 1** 
-input 3: the output name of the count file that is generated
+* input 1: the merged bam file
+* input 2: refrence genome in fasta format
+  * **It is import that the chromosomes in the refrence file are noted with chr I.E. chr1 not simply a 1** 
+* input 3: the output name of the count file that is generated
 
 In the same folder as 1_1_findReadsperPosition.py should also be, pileup2base.pl.
 
