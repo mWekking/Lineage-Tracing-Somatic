@@ -25,5 +25,6 @@ _In some cases the data of a patient is gathered in multiple runs. It is the eas
 Then merge the generate variant file per run in this step._
 example usage:
 > $ python3 1_3_combine_variantFiles.py variantsFiles.txt patient1_run123_variants.txt
+
 input 1: txt file which contains the relative path to every variant file, one per line
 input 2: the output name of the merged variant file
