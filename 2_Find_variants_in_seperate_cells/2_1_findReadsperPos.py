@@ -20,8 +20,11 @@ def mpileupParser(outputFile, countFile):
                     "0", 
                     countFile])
 
-bamFilesList      = sys.argv[1]
-refrenceFile = sys.argv[2]
+#example usage: python3 2_1_findReadsperPos.py bamList.txt hg19_withchr.fa
+
+#input
+bamFilesList      = sys.argv[1] #a list of all bam files, one file per line
+refrenceFile      = sys.argv[2] ##hg19.fa chromosomes names should be chr1,chr2 etc.. not only a digit
 
 with open(bamFilesList, "r") as fileList:
     for bamFile in fileList:
